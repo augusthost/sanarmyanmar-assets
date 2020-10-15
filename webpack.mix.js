@@ -23,8 +23,8 @@ const cssFiles = [
     'plugins/sal/sal.min.css'
 ]
 
-mix.combine(jsFiles, 'dist/js/app.js')
-.styles(cssFiles, 'dist/css/app.css')
+mix.combine(jsFiles, 'dist/js/web.js')
+.styles(cssFiles, 'dist/css/web.css')
 .copy('plugins/lineawesome/fonts','dist/fonts');
 
 // Full API
