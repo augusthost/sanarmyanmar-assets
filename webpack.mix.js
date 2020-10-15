@@ -19,13 +19,13 @@ let mix = require('laravel-mix');
 
 const cssFiles = [
     'plugins/bootstrap/boostrap5.min.css',
-    'plugins/lineawesome/css/lineawesome.min.css',
+    'plugins/lineawesome/css/line-awesome.min.css',
     'plugins/sal/sal.min.css'
 ]
 
 mix.combine(jsFiles, 'dist/js/app.js')
 .styles(cssFiles, 'dist/css/app.css')
-.copy('plugins/lineawesome/webfonts','dist/webfonts');
+.copy('plugins/lineawesome/fonts','dist/fonts');
 
 // Full API
 // mix.js(src, output);
