@@ -14,15 +14,13 @@ let mix = require('laravel-mix');
  const jsFiles = [
     'plugins/bootstrap/boostrap5.min.js',
     'plugins/jquery/jquery.slim.min.js',
-    'plugins/sal/sal.min.js',
-    'plugins/tiny-slider/tiny-slider.min.js'
+    'plugins/sal/sal.min.js'
 ]
 
 const cssFiles = [
     'plugins/bootstrap/boostrap5.min.css',
     'plugins/lineawesome/css/lineawesome.min.css',
-    'plugins/sal/sal.min.css',
-    'plugins/tiny-slider/tiny-slider.min.css'
+    'plugins/sal/sal.min.css'
 ]
 
 mix.combine(jsFiles, 'dist/js/app.js')
